@@ -3,6 +3,13 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  z-index: 100;
 }
 
 .left-section {
@@ -81,17 +88,31 @@
 
 .upload-icon {
   height: 24px;
-  /* margin-right: 24px; */
 }
 
 .youtube-apps-icon {
   height: 24px;
-  /* margin-right: 24px; */
 }
 
 .notifications-icon {
   height: 24px;
-  /* margin-right: 24px; */
+}
+
+.notification-icon-container {
+  position: relative;
+}
+.notification-badge {
+  position: absolute;
+  top: -2px;
+  right: -5px;
+  background-color: rgb(153, 6, 6);
+  color: #fff;
+  font-size: 10px;
+  font-family: "Roboto", Arial;
+  font-weight: bold;
+  border-radius: 80px;
+  padding: 2px 5px;
+  justify-content: center;
 }
 .current-user-picture {
   height: 32px;
