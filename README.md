@@ -1,2 +1,2 @@
 # This is a YouTube clone 
-### Created it to get used to css
+Created it to get used to css
